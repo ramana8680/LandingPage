@@ -1,0 +1,816 @@
+a,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100vw;
+    margin-bottom: 50px;
+    padding: 16px;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+
+header {
+    position: relative;
+}
+
+/* .animate {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    background-image: url("Footer img2 .png");
+    background-position: center;
+    background-size: cover;
+    animation: example 4s infinite;
+} */
+
+/* @keyframes example{
+    0%{
+        left: 100%;
+        top: 1200%;
+    }
+    50%{
+        left: 40%;
+        top:200%;
+    }
+    75%{
+        left:-100%;
+        top:100%;
+    }
+    99%{
+        left: 40%;
+        top:120%;
+    }
+    100%{
+        left: 20%;
+        top:20%
+    }
+} */
+
+.Header-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    position: relative;
+    z-index: 100;
+    background-color: white;
+}
+
+#navbar {
+    opacity: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+.logoplace {
+    width: 175px;
+}
+
+#navbar:checked~.box1 {
+    top: 10%;
+}
+
+.hammenu {
+    font-size: 32px;
+    padding: 8px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul>li {
+    padding: 8px;
+}
+
+.box1 {
+    width: 90%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 1);
+    top: -100%;
+    transition: ease-in-out 0.5s;
+    text-align: center;
+}
+
+main {
+    margin: 0px 24px;
+}
+
+.Hero {
+    margin: 18px 8px;
+    margin-bottom: 32px;
+}
+
+.HeroDesign {
+    display: none;
+}
+
+.HeroContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.HeroContentHeading {
+    font-size: 26px;
+    line-height: 1.3;
+}
+
+.Content-title {
+    color: #DC4C56;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.Content-brief {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+    /* width: 300px; */
+    /* border: 1px solid green; */
+}
+
+.HeroContentHeading>h1 {
+    font-weight: 200;
+}
+
+#highlight {
+    font-weight: 900;
+}
+
+.HeroContentBrief {
+    color: grey;
+    margin: 8px 2px;
+    line-height: 1.5;
+}
+
+.sub {
+    width: 175px;
+    margin: 8px 2px;
+    background-color: #DC4C56;
+    color: white;
+    padding: 18px;
+    font-size: medium;
+    border-radius: 8px;
+}
+
+button {
+    border: 1px solid white;
+}
+
+.illustrator {
+    margin: auto;
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 32px;
+}
+
+.Services-head {
+    /* border: 1px solid red; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.Services-box {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: auto;
+    margin-top: 48px;
+    text-align: center;
+}
+
+.Services-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: center;
+    padding: 8px;
+    margin-top: 18px;
+}
+
+.Services-img {
+    margin-top: 16px;
+    margin: auto;
+    width: 75px;
+    height: 75px;
+}
+
+.Services-option-title {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.Services-option-brief {
+    color: gray;
+    line-height: 1.3;
+}
+
+.Aboutus-starter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    /* border: 1px solid ; */
+}
+
+.works-starter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Aboutus-img {
+    width: 250px
+}
+
+.works-img {
+    width: 250px
+}
+
+.Aboutus-content {
+    margin-top: 24px;
+    line-height: 1.5;
+    text-align: center;
+    color: grey;
+    /* border: 2px solid olivedrab; */
+    margin-bottom: 18px;
+}
+
+.works-content {
+    margin-top: 24px;
+    line-height: 1.5;
+    text-align: center;
+    color: grey;
+    /* border: 2px solid olivedrab; */
+    margin-bottom: 18px;
+}
+
+.Aboutus {
+    margin: 48px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.Rating {
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+    gap: 24px;
+}
+
+.Rating-img {
+    width: 125px;
+    /* border: 2px solid orange; */
+}
+
+.Aboutus-description {
+    margin-top: 32px;
+}
+
+.works-description {
+    margin-top: 32px;
+}
+
+.Work-Button {
+    text-align: center;
+    /* margin: auto; */
+    /* border: 1px solid; */
+}
+
+.Aboutus-Footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DC4C56;
+    border-radius: 8px;
+    padding: 16px;
+    color: white;
+    width: 350px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.Aboutus-footer-01 {
+    padding: 8px;
+}
+
+.Aboutus-footer-03 {
+    padding: 8px;
+}
+
+.Aboutus-footer-02 {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 12px;
+}
+
+.works {
+    margin: 48px 8px;
+}
+
+.Testimonials {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.User-box {
+    height: 420px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 24px;
+    margin-top: 40px;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.User-reviews {
+    text-align: left;
+    line-height: 1.4;
+    color: grey;
+}
+
+.User-profile {
+    display: flex;
+    gap: 16px;
+    margin-top: auto;
+    /* border: 1px solid black;   */
+    /* flex-grow: 1; */
+}
+
+.User-image {
+    width: 100px;
+}
+
+.User-description {
+    width: 200px;
+    /* border: 1px solid ; */
+    padding: 8px;
+}
+
+.User-description>h3 {
+    font-weight: 400;
+}
+
+.User-description>h5 {
+    color: grey;
+    font-weight: 100;
+}
+
+.Partners {
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.Partner-images {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 200px;
+    margin: auto;
+}
+
+.Partner-images>img {
+    opacity: 35%;
+    transition: 1s;
+}
+
+.Partner-images>img:hover {
+    opacity: 100%;
+    transition: 0.5s;
+}
+
+footer {
+    margin-top: 48px;
+    padding: 32px;
+    background-color: #133247ea;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-bottom: 56px;
+}
+
+.footer-logo {
+    width: 200px;
+    height: 50px;
+}
+
+.footer-image {
+    display: none;
+}
+
+.Footerbutton {
+    display: flex;
+    gap: 16px;
+    border: 1px solid white;
+    background-color: #133247ea;
+    margin-top: 32px;
+    width: 225px;
+    height: 100px;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.footer-Content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 4px;
+    color: white;
+}
+
+.Footerbutton:hover {
+    background-color: #DC4C56;
+    transition: 0.5s;
+}
+
+.footer-ulist {
+    margin-top: 16px;
+}
+
+.footer-ulist>li>a {
+    padding: 8px;
+    color: white;
+}
+
+.footer-option>h2 {
+    color: white;
+}
+
+.footer-ulist>li>a:hover {
+    color: #DC4C56;
+}
+
+.footer-sector {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+box1>a:focus {
+    border: 1px solid #DC4C56;
+}
+
+@media screen and (min-width:720px) {
+    .options {
+        display: none;
+        position: relative;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    .box1 {
+        position: relative;
+        margin-left: auto;
+        width: fit-content;
+    }
+
+    .options {
+        display: none;
+    }
+
+    li {
+        display: inline;
+    }
+
+    .Hero {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .HeroContentHeading {
+        width: 500px;
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .HeroContentButton {
+        text-align: center;
+    }
+
+    .illustrator {
+        width: 475px;
+        height: 500px;
+    }
+
+    .Services-box {
+        flex-direction: column;
+        width: 400px;
+        /* border: 1px solid; */
+    }
+
+    .Services-options {
+        /* border: 1px solid; */
+        margin: 16px 10%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        /* width: 400px; */
+    }
+
+    .Aboutus-starter {
+        margin-top: 40px;
+    }
+
+    .Aboutus-Footer {
+        width: 600px;
+    }
+
+    .Content-brief {
+        width: auto;
+    }
+
+    .User-box {
+        width: 350px;
+
+    }
+
+    .User-reviews-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin: auto;
+        /* border:1px solid red; */
+    }
+
+    .Partners {
+        flex-direction: row;
+        margin: auto;
+        margin-top: 48px;
+        width: 60%;
+        /* border: 1px solid; */
+        justify-content: space-between;
+        align-items: center;
+        /* flex-grow:1; */
+    }
+
+    .Partner-images {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        width: 600px;
+    }
+
+    .footer-logo {
+        width: 200px;
+    }
+
+    .Footer-sector {
+        width: 90%;
+        /* border: 1px solid ; */
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 56px;
+        margin: auto;
+        align-items: center;
+    }
+
+    .footer-ulist {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+        margin: 8px 16px;
+    }
+
+    .Hero {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 80px 0px;
+        /* border: 1px solid; */
+        width: 90%;
+    }
+
+    .HeroContent {
+        width: 700px;
+        margin: auto;
+    }
+
+    .HeroContentHeading {
+        width: 600px;
+        font-size: 40px;
+        line-height: 1.3;
+        margin-bottom: 16px;
+
+    }
+
+    .HeroContentBrief {
+        font-size: 18px;
+    }
+
+    .illustrator {
+        width: 525px;
+        height: 550px;
+
+    }
+
+    .HeroOrg {
+        display: flex;
+        margin-left: 200px;
+    }
+
+    .options {
+        display: none;
+    }
+
+    li {
+        display: inline;
+    }
+
+    .HeroDesign {
+        display: block;
+        position: absolute;
+        width: 250px;
+        left: -100px;
+        top: 250px;
+    }
+
+    .HeroContentButton {
+        margin: 0px;
+        text-align: left;
+    }
+
+    .HeroContentBrief {
+        width: 450px;
+    }
+
+    .options {
+        display: none;
+        position: relative;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        padding: 16px 24px;
+        width: 95%;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    .box1 {
+        position: relative;
+        margin-left: auto;
+        width: fit-content;
+    }
+
+    .Services-box {
+        flex-direction: column;
+        width: 400px;
+        /* gap: 48px; */
+        margin-bottom: 54px;
+    }
+
+    .Services-options {
+        margin: 16px 10%;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .Aboutus {
+        display: flex;
+        flex-direction: column;
+        gap: 56px;
+        margin-top: 64px;
+    }
+
+    .Aboutus-starter {
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 32px;
+    }
+
+    .Aboutus-description {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+
+    .Aboutus-img {
+        width: 500px;
+    }
+
+    .Aboutus-Footer {
+        width: 400px;
+    }
+
+    .Aboutus-content {
+        text-align: left;
+    }
+
+    .Content-title {
+        font-size: 56px;
+    }
+
+    .Aboutus-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .works-img {
+        width: 500px;
+    }
+
+    .works-description {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+
+    .User-reviews-box {
+        width: 70%;
+    }
+
+    /* .box2 {
+        margin-bottom: 32px;
+    } */
+    .Partners {
+        width: 50%;
+        height: 100px;
+        /* border: 1px solid; */
+    }
+
+    .Partner-images {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .Footer-sector {
+        width: 100%;
+    }
+
+    .footer-logo {
+        width: 200px;
+    }
+
+    .Footerbutton {
+        width: 225px;
+    }
+
+    .footer-image {
+        display: contents;
+    }
+
+    .Testimonials {
+        margin-bottom: 64px;
+    }
+
+    .User-box {
+        transition: 0.5s;
+    }
+
+    .User-box:hover {
+        margin-bottom: 32px;
+        transition: 0.5s;
+    }
+}
